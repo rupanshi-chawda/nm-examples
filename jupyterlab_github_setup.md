@@ -64,7 +64,7 @@ $ helm rollback s33 1
 ```
 - Now, do
 ```
-$ helm upgrade --cleanup-on-fail --install s21 jupyterhub/jupyterhub --version=0.9.0 --values config-nmdev.yaml --timeout 10m0s
+$ helm upgrade --cleanup-on-fail --install s33 jupyterhub/jupyterhub --version=0.9.0 --values config-s33.yaml --timeout 10m0s
 ```
 - To obtain the external allocated IP address, do
 ```
@@ -76,7 +76,8 @@ After deploying, your Jupyterhub will look like this.
 ![image](https://user-images.githubusercontent.com/58527347/147270750-e5f0674c-b099-452b-978d-4a33c0486551.png)
 
 </br>
-You can search any `public` repository by searching `owner/repo-name` in the github-user tab.
+
+You can search any **public** repository by searching `owner/repo-name` in the github-user tab.
 </br>
 
 ## Access private repositories 
