@@ -77,7 +77,7 @@ After deploying, your Jupyterhub will look like this.
 
 </br>
 
-You can search any **public** repository by searching `owner/repo-name` in the github-user tab.
+You can access and run any **public** repository by searching `owner/repo-name` in the github-user tab.
 </br>
 
 ## Access private repositories 
