@@ -90,6 +90,9 @@ You can get an access token by following these steps:
 - Give the token a description, and check the "repo" scope box.
 - Click "Generate token"
 - You should be given a string which will be your access token.
+
+</br>
+
 Remember that this token is effectively a password for your GitHub account. Do not share it online or check the token into version control,
 as people can use it to access all of your data on GitHub. </br>
 You now need to add the credentials you got from GitHub to your notebook configuration file. 
@@ -97,4 +100,4 @@ Instructions for generating a configuration file can be found here. Once you hav
 ```
 c.GitHubConfig.access_token = '< YOUR_ACCESS_TOKEN >'
 ```
-
+where `"< YOUR_ACCESS_TOKEN >"` is the string value you obtained above after generating access token.
