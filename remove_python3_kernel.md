@@ -23,7 +23,8 @@ Add this line to your configuration file.
 There two ways, First is either go to the directory where kernels are residing and delete from there. or, </br>
 Using this command below - </br>
 
-- List all kernels and grap the name of the kernel you want to remove, to get the paths of all your kernels.
+- Open Terminal in your notebook 
+- To List all kernels and grab the name of the kernel you want to remove, also to get the paths of all your kernels.
 ```
  $ jupyter kernelspec list 
  ```
@@ -43,7 +44,7 @@ Kernel specs to remove:
 Remove 1 kernel specs [y/N]: y
 [RemoveKernelSpec] Removed /opt/conda/share/jupyter/kernels/python3
 ```
-> Refresh the page and you have removed python3 successfully.
+> **Refresh** the page and you have removed python3 successfully.
 
 </br>
 
