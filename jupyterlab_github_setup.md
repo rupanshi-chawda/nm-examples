@@ -77,8 +77,28 @@ After deploying, your Jupyterhub will look like this.
 
 </br>
 
+
+## Set Default Repo to Load Examples 
+
 You can access and run any **public** repository by searching `owner/repo-name` in the github-user tab.
 </br>
+To set a repository to load as default, you can do the following steps - 
+- Go to `Settings` and then to `Advance Settings`
+- Then click on the `Github plugin Settings` 
+![image](https://user-images.githubusercontent.com/58527347/147900977-df45d842-c3e2-4ca6-a10e-b772abbf472a.png)
+- Now edit User Preference by adding the following code - 
+```
+{
+    "baseUrl": "https://github.com",
+    "defaultRepo": "rupanshi-chawda/nm-examples"
+}
+```
+- Save the file by clicking on save button on top right corner </br>
+![imageedit_2_4613923918](https://user-images.githubusercontent.com/58527347/147901200-df1cf730-7c7f-44dc-a2d4-9c368c9d1925.jpg)
+
+- Close the settings and Reload the page, it will load directly the Examples.  
+![Screenshot (259)](https://user-images.githubusercontent.com/58527347/147901430-179bce56-ad2f-403f-b0ed-95439dea2e92.png)
+
 
 ## Access private repositories 
 To access private repos, you need to generate Github Access Token. </br>
